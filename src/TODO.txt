@@ -1,0 +1,26 @@
+key:
+~change
+-remove
++add
+
+Current features:
++Cross-compatibility! (So far works on bot windows and linux! I have no way of testing on other systems...)
++Adjustable window size (can resize the window and the contents will be reprinted to the centre of the console)
++Refresh rate of 24fps (this is important as it effects objects such as how projectiles move)
++more efficient screen updating (The screen will only update the changed area rather than the entire screen)
++interactable objects (so far, just "boulders" which can be pushed by the player)
+
+Current "features" (a.k.a: bugs):
++Projectiles clone themselves when travelling along the level (see room 2 of the included level)
+
+TODO:
+~Fix projectile launchers! (currently shoots projectiles but fails to remove the previous)
+~Finish the menu
++Add a save feature
++Add a loading feature
++Add a map creator
++Add enemies
++Add colours
++Add sounds
++Add configuration for controls and colours
++Add adjustable sounds
